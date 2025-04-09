@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_web\\views\\course\\addeditcourseinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|solutionrelative:views\\course\\addeditcourseinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A51D3-17D0-4F88-9C50-D00F8541C97A}|..\\DNP_OLSM_HELPER\\DNP_OLSM_HELPER.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_helper\\ccourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE4E76E-5752-4FF0-B7CC-18B22293DAEF}|..\\DNP_OLSM_DL\\DNP_OLSM_DL.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_dl\\dlcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDE4E76E-5752-4FF0-B7CC-18B22293DAEF}|..\\DNP_OLSM_DL\\DNP_OLSM_DL.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_dl\\dladduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A78A51D3-17D0-4F88-9C50-D00F8541C97A}|..\\DNP_OLSM_HELPER\\DNP_OLSM_HELPER.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_helper\\cusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17BF2667-5E3C-4C29-9D49-272F72EE68EA}|..\\DNP_OLSM_ENTITY\\DNP_OLSM_ENTITY.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_entity\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_web\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_web\\controllers\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|solutionrelative:controllers\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_web\\views\\course\\managecourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|solutionrelative:views\\course\\managecourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|d:\\personal\\my_projects\\dnp_olms_2024\\dnp_olsm_web\\views\\shared\\_layoutadmin1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B58D4A36-855C-4817-BA47-B9561CB3A997}|DNP_OLSM_WEB.csproj|solutionrelative:views\\shared\\_layoutadmin1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cUsers.cs",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_HELPER\\cUsers.cs",
+              "RelativeDocumentMoniker": "..\\DNP_OLSM_HELPER\\cUsers.cs",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_HELPER\\cUsers.cs",
+              "RelativeToolTip": "..\\DNP_OLSM_HELPER\\cUsers.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:35:48.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dlAddUser.cs",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_DL\\dlAddUser.cs",
+              "RelativeDocumentMoniker": "..\\DNP_OLSM_DL\\dlAddUser.cs",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_DL\\dlAddUser.cs",
+              "RelativeToolTip": "..\\DNP_OLSM_DL\\dlAddUser.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:00:35.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dlCourse.cs",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_DL\\dlCourse.cs",
+              "RelativeDocumentMoniker": "..\\DNP_OLSM_DL\\dlCourse.cs",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_DL\\dlCourse.cs",
+              "RelativeToolTip": "..\\DNP_OLSM_DL\\dlCourse.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:00:11.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cCourse.cs",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_HELPER\\cCourse.cs",
+              "RelativeDocumentMoniker": "..\\DNP_OLSM_HELPER\\cCourse.cs",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_HELPER\\cCourse.cs",
+              "RelativeToolTip": "..\\DNP_OLSM_HELPER\\cCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:32:11.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_ENTITY\\Course.cs",
+              "RelativeDocumentMoniker": "..\\DNP_OLSM_ENTITY\\Course.cs",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_ENTITY\\Course.cs",
+              "RelativeToolTip": "..\\DNP_OLSM_ENTITY\\Course.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T13:04:49.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutAdmin1.cshtml",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Views\\Shared\\_LayoutAdmin1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin1.cshtml",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Views\\Shared\\_LayoutAdmin1.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutAdmin1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T12:54:29.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogIn.cshtml",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Views\\LogIn\\LogIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\LogIn\\LogIn.cshtml",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Views\\LogIn\\LogIn.cshtml",
+              "RelativeToolTip": "Views\\LogIn\\LogIn.cshtml",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAAAAUBAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T12:09:08.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditCourseInfo.cshtml",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Views\\Course\\AddEditCourseInfo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\AddEditCourseInfo.cshtml",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Views\\Course\\AddEditCourseInfo.cshtml",
+              "RelativeToolTip": "Views\\Course\\AddEditCourseInfo.cshtml",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAAKsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T11:30:07.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManageCourses.cshtml",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Views\\Course\\ManageCourses.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\ManageCourses.cshtml",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Views\\Course\\ManageCourses.cshtml",
+              "RelativeToolTip": "Views\\Course\\ManageCourses.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T13:11:52.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Controllers\\Course.cs",
+              "RelativeDocumentMoniker": "Controllers\\Course.cs",
+              "ToolTip": "D:\\Personal\\My_Projects\\DNP_OLMS_2024\\DNP_OLSM_WEB\\Controllers\\Course.cs",
+              "RelativeToolTip": "Controllers\\Course.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwEoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T13:10:32.627Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

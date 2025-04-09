@@ -1,0 +1,193 @@
+﻿@model DNP_OLSM_ENTITY.CourseModel
+@{
+    ViewBag.Title = "LogIn";
+    Layout = "~/Views/Shared/_LayoutAdmin1.cshtml";
+}
+
+<style>
+    .custom-toggle {
+        width: 50px;
+        height: 25px;
+        background: #ddd;
+        border-radius: 25px;
+        transition: background 0.3s ease-in-out;
+        position: relative;
+        cursor: pointer;
+    }
+
+        .custom-toggle:checked {
+            background: #28a745;
+        }
+
+        .custom-toggle:before {
+            content: "";
+            position: absolute;
+            left: 3px;
+            top: 3px;
+            width: 20px;
+            height: 20px;
+            background: white;
+            border-radius: 50%;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .custom-toggle:checked:before {
+            transform: translateX(25px);
+        }
+
+    .input-group-text {
+        background: #007bff;
+        color: white;
+        border-radius: 50%;
+    }
+
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    }
+
+    .ui-datepicker {
+        background: #ffffff;
+        border: 1px solid #007bff;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .ui-datepicker-header {
+        background: #007bff;
+        color: white;
+        border-radius: 8px 8px 0 0;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .ui-datepicker-title {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .ui-datepicker-prev, .ui-datepicker-next {
+        color: white !important;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .ui-datepicker-calendar {
+        width: 100%;
+        text-align: center;
+    }
+
+        .ui-datepicker-calendar th {
+            background: #007bff;
+            color: white;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        .ui-datepicker-calendar td a {
+            display: block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            margin: 5px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+            .ui-datepicker-calendar td a:hover {
+                background: #007bff;
+                color: white;
+                font-weight: bold;
+            }
+
+
+</style>
+
+@using (Html.BeginForm("AddEditCourseInfo", "Course", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="container p-4 bg-white shadow-lg rounded">
+        <h3 class="mb-4 text-primary fw-bold d-flex align-items-center">
+            <i class="bi bi-pencil-square me-2"></i> Add/Edit Course
+        </h3>
+
+        <div class="row g-4">
+            <!-- Left Column -->
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Course Name</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-primary text-white"><i class="bi bi-book"></i></span>
+                        @Html.TextBoxFor(model => model.CourseName, new { @class = "form-control rounded-end shadow-sm", placeholder = "Enter Course Name" })
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Course Description</label>
+                    @Html.TextAreaFor(model => model.CourseDesc, new { @class = "form-control rounded shadow-sm", placeholder = "Enter Course Description", rows = "4" })
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Enter Date</label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-primary text-white"><i class="bi bi-calendar-event"></i></span>
+                        @Html.TextBoxFor(model => model.CreatedDate, new { @class = "form-control rounded-end shadow-sm", id = "hCreatedDate", placeholder = "Select Date" })
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Change Status</label>
+                    <div class="d-flex align-items-center">
+                        <span id="toggleLabel" class="fw-bold me-2 text-danger">Draft</span>
+                        <div class="form-check form-switch">
+                            @Html.CheckBox("IsActive", new { @class = "form-check-input", id = "toggleStatus" })
+                            <label class="form-check-label" for="toggleStatus"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="d-flex justify-content-end mt-4">
+            <button type="submit" value="Save" name="Command" class="btn btn-primary px-4 py-2 rounded-pill shadow">
+                <i class="bi bi-save"></i> Save Course
+            </button>
+        </div>
+    </div>
+}
+
+@section Scripts {
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+
+
+    <script>
+        $(document).ready(function () {
+               $('#hCreatedDate').datepicker({
+            format: 'mm/dd/yyyy',
+            autoclose: true,
+            todayHighlight: true,
+            showOtherMonths: true,
+            selectOtherMonths: true
+        });
+
+            $('#toggleStatus').change(function () {
+                let label = $('#toggleLabel');
+                if (this.checked) {
+                    label.text('Publish').removeClass('text-danger').addClass('text-success');
+                } else {
+                    label.text('Draft').removeClass('text-success').addClass('text-danger');
+                }
+            });
+        });
+    </script>
+}
+

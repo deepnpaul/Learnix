@@ -1,0 +1,150 @@
+﻿@model DNP_OLSM_ENTITY.CourseModel
+@{
+    ViewBag.Title = "LogIn";
+    Layout = "~/Views/Shared/_LayoutAdmin1.cshtml";
+}
+
+<style>
+    /* Overall Table Styling */
+    .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 128, 0, 0.15);
+    }
+
+        /* Header Styling */
+        .custom-table thead {
+            background: linear-gradient(to right, #2e8b57, #3cb371);
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Header Cells */
+        .custom-table th {
+            padding: 14px;
+            text-align: left;
+        }
+
+        /* Table Body */
+        .custom-table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            transition: all 0.3s ease;
+        }
+
+        /* Alternating Row Colors */
+        .custom-table tbody tr:nth-child(odd) {
+            background-color: #f0fff0; /* Light green */
+        }
+
+        /* Hover Effect */
+        .custom-table tbody tr:hover {
+            background-color: #d0f5d3;
+            transform: scale(1.02);
+            transition: 0.3s ease;
+        }
+
+    /* Status Badges */
+    .status {
+        padding: 5px 12px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 15px;
+        text-transform: uppercase;
+        display: inline-block;
+        min-width: 80px;
+        text-align: center;
+    }
+
+        .status.active {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .status.draft {
+            background-color: #ffc107;
+            color: black;
+        }
+
+    /* Buttons */
+    .btn {
+        border: none;
+        padding: 8px 14px;
+        font-size: 14px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .edit-btn {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .delete-btn {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+</style>
+
+
+<a class="btn btn-outline-primary fw-bold shadow-lg"
+   href="~/Course/AddEditCourseInfo"
+   role="button">
+    <i class="bi bi-plus-circle"></i> Add Course Information
+</a>
+<div class="box-body">
+    <div class="scroll">
+
+        <table class="custom-table">
+            <thead>
+                <tr>
+                    <th>Course ID</th>
+                    <th>Course Name</th>
+                    <th>Course Description</th>
+                    <th>Created Date</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.ManageCourse != null)
+                {
+                    foreach (var wr in ViewBag.ManageCourse)
+                    {
+                        <tr>
+                            <td>@wr.CourseID</td>
+                            <td>@wr.CourseName</td>
+                            <td>@wr.CourseDesc</td>
+                            <td>@(wr.CreatedDate != null ? wr.CreatedDate.ToString("MM/dd/yyyy") : "-")</td>
+                            <td>
+                                <span class="status @(Convert.ToBoolean(wr.IsActive) ? "active" : "draft")">
+                                    @(Convert.ToBoolean(wr.IsActive) ? "Active" : "Draft")
+                                </span>
+                            </td>
+                            <td>
+                                <button class="btn edit-btn">✏️ Edit</button>
+                                <button class="btn delete-btn">🗑 Delete</button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+
+
+    </div>
+</div>

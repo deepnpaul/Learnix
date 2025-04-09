@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DNP_OLSM_WEB.props" />
+</Project>

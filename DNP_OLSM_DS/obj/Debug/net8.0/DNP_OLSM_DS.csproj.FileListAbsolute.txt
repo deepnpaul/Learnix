@@ -1,0 +1,12 @@
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\bin\Debug\net8.0\DNP_OLSM_DS.deps.json
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\bin\Debug\net8.0\DNP_OLSM_DS.dll
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\bin\Debug\net8.0\DNP_OLSM_DS.pdb
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\obj\Debug\net8.0\DNP_OLSM_DS.csproj.AssemblyReference.cache
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\obj\Debug\net8.0\DNP_OLSM_DS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\obj\Debug\net8.0\DNP_OLSM_DS.AssemblyInfoInputs.cache
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\obj\Debug\net8.0\DNP_OLSM_DS.AssemblyInfo.cs
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\obj\Debug\net8.0\DNP_OLSM_DS.csproj.CoreCompileInputs.cache
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\obj\Debug\net8.0\DNP_OLSM_DS.dll
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\obj\Debug\net8.0\refint\DNP_OLSM_DS.dll
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\obj\Debug\net8.0\DNP_OLSM_DS.pdb
+D:\Personal\My_Projects\DNP_OLMS_2024\DNP_OLSM_DS\obj\Debug\net8.0\ref\DNP_OLSM_DS.dll
